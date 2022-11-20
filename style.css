@@ -94,6 +94,28 @@ h1 {
 
 /* ===== Responsive Breakpoint ===== */
 @media only screen and (max-width : 600px) {
+    .bet-box {
+        min-height: 200px;
+        min-width: 100%;
+        background: #ffffff;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .game-box {
+        min-height: 360px;
+        min-width: 100%;
+        background: #ffffff;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .logo {
+        width: 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
     .btn-start {
         width: 80px;
         height: 30px;

@@ -1,6 +1,6 @@
 body {
     font-family: 'PT Serif';
-    background-image: radial-gradient(#2a7a08, #226108, #0f3300);
+    background-image: url(images/royal-flush-playing-card-casino-chips-green-poker-background.jpg);
 }
 
 h1 {
@@ -90,5 +90,57 @@ h1 {
 .btn-game:hover {
     background: #226108;
     color: #ffffff;
+}
+
+/* ===== Responsive Breakpoint ===== */
+@media only screen and (max-width : 600px) {
+    .btn-start {
+        width: 80px;
+        height: 30px;
+        background: #7dad69;
+        border: 1px solid #7dad69;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: small;
+    }
+
+    .btn-max {
+        width: 80px;
+        height: 30px;
+        background: #e4be77;
+        border: 1px solid #e4be77;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: small;
+    }
+
+    .btn-saldo {
+        width: 80px;
+        height: 30px;
+        background: #de7a6f;
+        border: 1px solid #de7a6f;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: small;
+    }
+
+    .btn-game {
+        border: 1px solid #000000;
+        border-radius: 8px;
+        background: transparent;
+        width: 80px;
+        height: 30px;
+        font-size: small;
+    }
+
+    #dealer-cards img {
+        width: 4rem;
+        margin: 15px 1px;
+    }
+    
+    #your-cards img {
+        width: 4rem;
+        margin: 15px 1px;
+    }
 }
 

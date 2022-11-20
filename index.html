@@ -14,15 +14,15 @@
         <h1 class="text-center mt-4"><img class="logo" src="./logo/spade-ace.png">Blackjack</h1>
         <div class="d-flex justify-content-center bet-box mt-5">
             <section id="betting">
-                <h2 class="text-center mt-3 fs-4">Balance : $<span id="mybalance">5000</span></h2>
-                <div class="mt-4 d-inline-flex justify-content-center ms-5">
+                <h2 class="text-center mt-4 mt-sm-4 mt-md-3 mt-lg-3 fs-4">Balance : $<span id="mybalance">5000</span></h2>
+                <div class="mt-4 mt-sm-4 mt-md-3 mt-md-3 d-inline-flex justify-content-center ms-5">
                     <label class="form-label me-4">Your Bet :</label>
                     <input type="number" placeholder="$bet" name="mybet" id="mybet" class="form-control w-50">
                 </div>
                 <div class="text-center my-2">
                     <p id="bet-message"></p>
                 </div>
-                <div class="mt-4 d-flex justify-content-center">
+                <div class="mt-5 mt-sm-5 mt-md-4 mt-lg-4 d-flex justify-content-center">
                     <button id="start-btn" class="btn-start" onclick="start()" disabled="disabled">Start</button>
                     <button id="start-again" class="btn-start d-none" onclick="restart()" disabled="disabled">Start Again</button>
                     <button class="btn-max ms-2" onclick="maxbet()">All-in</button>
@@ -30,7 +30,7 @@
                 </div>
             </section>
         </div>
-        <div id="game" class="game-box mt-2" style="display: none">
+        <div id="game" class="game-box mt-2" style="display: none;">
             <section>
                 <div class="row">
                     <div class="col-6 margin-content text-center">
@@ -45,11 +45,11 @@
                     </div>
                 </div>
                 <div>
-                    <p class="text-center fs-6 mt-2 text-dark" id="results"></p>
+                    <p class="text-center fs-6 mt-4 mt-sm-4 mt-md-3 mt-lg-3 text-dark" id="results"></p>
                 </div>
-                <div class="mt-2 d-flex justify-content-center">
-                    <button id="hit" class="btn-game ms-2 mt-2 p-2">Hit</button>
-                    <button id="stay" class="btn-game ms-2 mt-2 p-2">Stay</button>
+                <div class="mt-4 mt-sm-4 mt-md-3 mt-lg-3 d-flex justify-content-center">
+                    <button id="hit" class="btn-game mt-2">Hit</button>
+                    <button id="stay" class="btn-game ms-2 mt-2">Stay</button>
                     <!-- <button id="restart" class="btn-game ms-2 mt-2 p-2" onclick="">Play Again</button> -->
                 </div>
             </section>
